@@ -1,4 +1,4 @@
-Public Sub Главная()
-Call нуль
+Public Sub Р“Р»Р°РІРЅР°СЏ()
+Call РЅСѓР»СЊ
 Call sub_systemN8
 End Sub
