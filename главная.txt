@@ -1,0 +1,4 @@
+Public Sub Главная()
+Call нуль
+Call sub_systemN8
+End Sub
