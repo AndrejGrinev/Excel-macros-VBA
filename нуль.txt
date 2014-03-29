@@ -1,4 +1,4 @@
-Public Sub νσλό()
+Public Sub Π½ΡƒΠ»Ρ()
 Dim i1, i2, i3 As Integer
 i2 = 1
 i3 = 4
