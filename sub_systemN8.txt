@@ -3,14 +3,14 @@ Dim si1, si2 As Single
 Dim i1, i2, i3 As Integer
 Dim s1 As String
    
-i2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(11, 1).Value
-i3 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(12, 1).Value
+i2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(11, 1).Value
+i3 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(12, 1).Value
 For i1 = i2 To i3 Step 1
-    s1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 1).Value
+    s1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 1).Value
     si1 = Application.WorksheetFunction.CountBlank(Workbooks("ssyr1.xlsm").Worksheets(s1).Range("A1:a800000"))
     si2 = 800000 - si1
-    Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 3).Value = si2
-    Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
+    Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 3).Value = si2
+    Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
     Call systemN8
     
 Next i1

@@ -6,33 +6,33 @@ Dim si1, Min_today, kol_imp, max_trend, zak_vchera, sstop, nach_trend, max_today
 Dim t1min, t2min, fl_min, kol_min, kol_long, kol_short, kol_all, all_kol1, all_kol2 As Integer
 Dim zak_min, zak_nemin, true_kol_min, true_all_kol1, true_all_kol2 As Single
 
-i1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value
-s1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 1).Value
-l2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 2).Value
-l1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 3).Value
+i1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value
+s1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 1).Value
+l2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 2).Value
+l1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 3).Value
 
 l3 = l1 + 1
-Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 2).Value = l3
-sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-zak_vchera = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 6).Value
-max_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 7).Value
-Min_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value
-min_time = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 42).Value
-t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 43).Value
-otk_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 9).Value
-kol_imps = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 10).Value
-sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
-gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
-sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
-kol_imp = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 20).Value
-t1min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 25).Value
-t2min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 26).Value
-zak_min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 27).Value
-zak_nemin = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 28).Value
-fl_min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value
-kol_min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 30).Value
-true_kol_min = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 35).Value
-lot = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 40).Value
+Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 2).Value = l3
+sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+zak_vchera = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 6).Value
+max_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 7).Value
+Min_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value
+min_time = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 42).Value
+t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 43).Value
+otk_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 9).Value
+kol_imps = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 10).Value
+sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
+gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
+sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
+kol_imp = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 20).Value
+t1min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 25).Value
+t2min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 26).Value
+zak_min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 27).Value
+zak_nemin = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 28).Value
+fl_min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value
+kol_min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 30).Value
+true_kol_min = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 35).Value
+lot = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 40).Value
 
 kfl1 = 0.64
 kfl2 = 0.48
@@ -42,13 +42,13 @@ kfs2 = 0.52
 kfs3 = 0.4
 
 For nrow = l2 To l1
-  Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(17, 1).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5)
-  Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 4).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4)
+  Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(17, 1).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5)
+  Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 4).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4)
   t1 = Hour(Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5))
   t2 = Minute(Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5))
   t3 = Second(Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5))
   
- '===========================================                    подготовка                         =================================================
+ '===========================================                    podgotovka                       =================================================
  
   If nrow = 1 Then
      max_today = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
@@ -59,9 +59,9 @@ For nrow = l2 To l1
      t2min = t2
      fl_min = 1
      zak_nemin = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 25).Value = t1min
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 26).Value = t2min
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value = fl_min
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 25).Value = t1min
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 26).Value = t2min
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value = fl_min
      If otk_today > zak_vchera Then
         otk_today = zak_vchera
         If Min_today > otk_today Then Min_today = otk_today
@@ -70,55 +70,55 @@ For nrow = l2 To l1
         otk_today = zak_vchera
         If max_today < otk_today Then max_today = otk_today
      End If
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 7).Value = max_today
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value = Min_today
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 42).Value = min_time
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 9).Value = otk_today
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 7).Value = max_today
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value = Min_today
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 42).Value = min_time
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 9).Value = otk_today
   Else
      If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value < Min_today Then
         Min_today = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
         min_time = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5).Value
      End If
      If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value > max_today Then max_today = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 7).Value = max_today
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value = Min_today
-     Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 42).Value = min_time
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 7).Value = max_today
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value = Min_today
+     Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 42).Value = min_time
      If t1 > t1min Or t1 = t1min And t2 > t2min Then
         t1min = t1
         t2min = t2
         zak_min = zak_nemin
         fl_min = 0
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 25).Value = t1min
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 26).Value = t2min
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 27).Value = zak_min
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value = fl_min
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 25).Value = t1min
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 26).Value = t2min
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 27).Value = zak_min
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value = fl_min
      Else
         zak_nemin = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
         fl_min = 1
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 28).Value = zak_nemin
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value = fl_min
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 28).Value = zak_nemin
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value = fl_min
      End If
      If t1 = 18 And t2 = 44 Then
         fin_cena = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
-        Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 39).Value = fin_cena
+        Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 39).Value = fin_cena
      End If
   End If
 
- '==================================================   СТОП ЛОНГА - середина дня  ====================================================================
+ '==================================================   STOP LONG - seredina dnya  ====================================================================
        
-      sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+      sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
       If sdd = 1 And zak_min <= sstop And gg = 1 And fl_min = 0 Then
       '   t_proboi = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5).Value
-       '  Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 43).Value = t_proboi
+       '  Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 43).Value = t_proboi
          sdd = 2
          fl_min = 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value = fl_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value = fl_min
          tmin = (18 - t1) * 60 + 42 - t2
-         kol_long = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value
-         kol_short = Round((Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(20, 1).Value / Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value), 0)
+         kol_long = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value
+         kol_short = Round((Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(20, 1).Value / Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value), 0)
                    lot2 = Int(kol_short / lot)
                    kol_short = lot2 * lot
          kol_all = kol_long + kol_short
@@ -126,41 +126,41 @@ For nrow = l2 To l1
          true_kol_min = kol_all / tmin
                    lot2 = Int(true_kol_min / lot)
                    kol_min = lot2 * lot
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 32).Value = kol_short
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 30).Value = kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 35).Value = true_kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 32).Value = kol_short
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 30).Value = kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 35).Value = true_kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
                    
-                   If kol_min >= lot Then Call продать8
+                   If kol_min >= lot Then Call prodat8
          
          all_kol1 = kol_min
          all_kol2 = 0
          true_all_kol1 = true_kol_min
          true_all_kol2 = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value = all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value = all_kol2
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value = true_all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value = true_all_kol2
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 31).Value = kol_long
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value = all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value = all_kol2
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value = true_all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value = true_all_kol2
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 31).Value = kol_long
       End If
       
-'==================================================   СТОП ШОРТА - середина дня  ====================================================================
+'==================================================   STOP SHORT - seredina dnya  ====================================================================
        
-      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
       If sdd = -1 And zak_min >= sstopss And gg = 1 And fl_min = 0 Then
          t_proboi = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 5).Value
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 43).Value = t_proboi
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 43).Value = t_proboi
          sdd = -2
          fl_min = 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 29).Value = fl_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 29).Value = fl_min
          tmin = (18 - t1) * 60 + 42 - t2
-         kol_short = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value
-         kol_long = Round((Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(19, 1).Value / Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value), 0)
+         kol_short = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value
+         kol_long = Round((Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(19, 1).Value / Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value), 0)
                      lot2 = Int(kol_long / lot)
                      kol_long = lot2 * lot
          kol_all = kol_long + kol_short
@@ -168,33 +168,33 @@ For nrow = l2 To l1
          true_kol_min = kol_all / tmin
                      lot2 = Int(true_kol_min / lot)
                      kol_min = lot2 * lot
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 31).Value = kol_long
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 30).Value = kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 35).Value = true_kol_min
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-                   If kol_min >= lot Then Call купить8
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 31).Value = kol_long
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 30).Value = kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 35).Value = true_kol_min
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+                   If kol_min >= lot Then Call kypit8
          all_kol1 = kol_min
          all_kol2 = 0
          true_all_kol1 = true_kol_min
          true_all_kol2 = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value = all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value = all_kol2
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value = true_all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value = true_all_kol2
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 32).Value = kol_short
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value = all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value = all_kol2
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value = true_all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value = true_all_kol2
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 32).Value = kol_short
       End If
 
-'==================================================   проверка СТОП ЛОНГА - середина дня  ====================================================================
+'==================================================   proverka STOP LONG - seredina dnya  ====================================================================
        
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
-      sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
+      sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
       If sdd = 2 And gg = 1 And fl_min = 0 And zak_min <= sstop Then
          fl_min = 1
-         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-         true_all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value
+         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+         true_all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value
          all_kol1 = all_kol1 + kol_min
          true_all_kol1 = true_all_kol1 + true_kol_min
          
@@ -205,27 +205,27 @@ For nrow = l2 To l1
             lot2 = Int(dd / lot)
             dd2 = lot * lot2
             all_kol1 = all_kol1 + dd2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_min + dd2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_min + dd2
          Else
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_min
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_min
          End If
       
       
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
          
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value > 0 Then Call продать8
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value > 0 Then Call prodat8
          
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value = all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value = true_all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value = all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value = true_all_kol1
       End If
       
       If sdd = 2 And gg = 1 And fl_min = 0 And zak_min > sstop Then
          fl_min = 1
-         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-         all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
+         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+         all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
          If all_kol1 > all_kol2 Then
-            true_all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value
+            true_all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value
             all_kol2 = all_kol2 + kol_min
             true_all_kol2 = true_all_kol2 + true_kol_min
             
@@ -237,28 +237,28 @@ For nrow = l2 To l1
                dd2 = lot * lot2
                all_kol2 = all_kol2 + dd2
         '       true_all_kol2 = true_all_kol2 + dd2
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_min + dd2
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_min + dd2
             Else
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_min
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_min
             End If
       
       
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-            If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value > 0 Then Call купить8
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value = all_kol2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value = true_all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+            If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value > 0 Then Call kypit8
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value = all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value = true_all_kol2
          End If
       End If
-'==================================================   проверка СТОП ШОРТА - середина дня  ====================================================================
+'==================================================   proverka STOP SHORT - seredina dnya  ====================================================================
        
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
-      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
+      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
       If sdd = -2 And zak_min >= sstopss And gg = 1 And fl_min = 0 Then
          fl_min = 1
-         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-         true_all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value
+         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+         true_all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value
          all_kol1 = all_kol1 + kol_min
          true_all_kol1 = true_all_kol1 + true_kol_min
          
@@ -267,25 +267,25 @@ For nrow = l2 To l1
             lot2 = Int(dd / lot)
             dd2 = lot * lot2
             all_kol1 = all_kol1 + dd2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_min + dd2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_min + dd2
          Else
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_min
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_min
          End If
       
       
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value > 0 Then Call купить8
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value = all_kol1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 36).Value = true_all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value > 0 Then Call kypit8
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value = all_kol1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 36).Value = true_all_kol1
       End If
       
       If sdd = -2 And gg = 1 And fl_min = 0 And zak_min < sstopss Then
          fl_min = 1
-         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-         all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
+         all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+         all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
          If all_kol1 > all_kol2 Then
-            true_all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value
+            true_all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value
             all_kol2 = all_kol2 + kol_min
             true_all_kol2 = true_all_kol2 + true_kol_min
             
@@ -297,244 +297,244 @@ For nrow = l2 To l1
                dd2 = lot * lot2
                all_kol2 = all_kol2 + dd2
           '     true_all_kol2 = true_all_kol2 + dd2
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_min + dd2
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_min + dd2
             Else
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_min
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_min
             End If
       
       
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-            If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value > 0 Then Call продать8
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value = all_kol2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 37).Value = true_all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+            If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value > 0 Then Call prodat8
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value = all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 37).Value = true_all_kol2
          End If
       End If
-'==================================================   проверка СТОП ЛОНГА - конец дня  ====================================================================
+'==================================================   proverka STOP LONG - konec dnya  ====================================================================
        
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
       If sdd = 2 And gg = 1 And ((t1 = 18 And t2 = 43 And t3 >= 0) Or (t1 = 18 And t2 > 43)) Then
-         sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
+         sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
          If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value > sstop Then
             
-            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = all_kol1 - all_kol2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-            If (all_kol1 - all_kol2) > 0 Then Call купить8
+            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = all_kol1 - all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+            If (all_kol1 - all_kol2) > 0 Then Call kypit8
             
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 31).Value
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 31).Value
             sdd = 1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
          Else
-            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
-            kol_short = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 32).Value
-            kol_long = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 31).Value
+            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
+            kol_short = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 32).Value
+            kol_long = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 31).Value
             xvxv = kol_short + kol_long - (all_kol1 - all_kol2) - 1
             If xvxv > 0 Then
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = xvxv
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-               If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value > 0 Then Call продать8
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = xvxv
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+               If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value > 0 Then Call prodat8
             End If
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kol_short
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kol_short
             sdd = -1
             kol_imps = 0
             nach_trend = zak_vchera
             min_trend = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
             sstopss = Round(nach_trend - (nach_trend - min_trend) * kfs2 * Atn(kfs3 * kol_imps), 7)
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 10).Value = kol_imps
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value = nach_trend
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 11).Value = min_trend
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value = sstopss
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 10).Value = kol_imps
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value = nach_trend
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 11).Value = min_trend
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value = sstopss
          End If
          gg = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 6).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 0
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 6).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
       End If
-'==================================================   проверка СТОП ШОРТА - середина дня  ====================================================================
+'==================================================   proverka STOP SHORT - konec dnya ====================================================================
        
-      sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-      gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+      sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+      gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
       If sdd = -2 And gg = 1 And ((t1 = 18 And t2 = 43 And t3 >= 0) Or (t1 = 18 And t2 > 43)) Then
-         sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
+         sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
          If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value < sstopss Then
             
-            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = all_kol1 - all_kol2
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-            If (all_kol1 - all_kol2) > 0 Then Call продать8
+            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = all_kol1 - all_kol2
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+            If (all_kol1 - all_kol2) > 0 Then Call prodat8
             
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 32).Value
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 32).Value
             sdd = -1
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
          Else
-            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 33).Value
-            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 34).Value
-            kol_long = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 31).Value
-            kol_short = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 32).Value
+            all_kol1 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 33).Value
+            all_kol2 = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 34).Value
+            kol_long = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 31).Value
+            kol_short = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 32).Value
             xvxv = kol_long + kol_short - (all_kol1 - all_kol2) - 1
             If xvxv > 0 Then
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = xvxv
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-               Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-               If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value > 0 Then Call купить8
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = xvxv
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+               Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+               If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value > 0 Then Call kypit8
             End If
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kol_long
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kol_long
             sdd = 1
             kol_imp = 0
             nach_trend = zak_vchera
             max_trend = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
             sstop = Round(nach_trend + (max_trend - nach_trend) * kfl2 * Atn(kfl3 * kol_imp), 7)
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 20).Value = kol_imp
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value = nach_trend
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 22).Value = max_trend
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value = sstop
-            Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 20).Value = kol_imp
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value = nach_trend
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 22).Value = max_trend
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value = sstop
+            Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
          End If
          gg = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 0
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 6).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 0
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 6).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
       End If
-'==================================================           конец дня :posa=long            =======================================================
+'==================================================           konec dnya :posa=long            =======================================================
    
-   sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-   gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+   sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+   gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
    If sdd = 1 And ((t1 = 18 And t2 = 43 And t3 >= 0) Or (t1 = 18 And t2 > 43)) And gg = 1 Then
-      sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
+      sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
       If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value <= sstop Then
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value > 0 Then Call продать8
-         kolvo = Round((Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(20, 1).Value / Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 14).Value), 0)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value = kolvo
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value > 0 Then Call продать8
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value - 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value > 0 Then Call prodat8
+         kolvo = Round((Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(20, 1).Value / Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 14).Value), 0)
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value = kolvo
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value > 0 Then Call prodat8
          sdd = -1
          kol_imps = 1
          nach_trend = zak_vchera
          min_trend = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
          sstopss = Round(nach_trend - (nach_trend - min_trend) * kfs2 * Atn(kfs3 * kol_imps), 7)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 10).Value = kol_imps
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value = nach_trend
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 11).Value = min_trend
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value = sstopss
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 10).Value = kol_imps
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value = nach_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 11).Value = min_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value = sstopss
       End If
       gg = 0
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 0
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 0
    End If
    
-'==================================================           конец дня :posa=short            =======================================================
+'==================================================           konec dnya :posa=short            =======================================================
 
-   sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-   gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+   sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+   gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
    If sdd = -1 And ((t1 = 18 And t2 = 43 And t3 >= 0) Or (t1 = 18 And t2 > 43)) And gg = 1 Then
-      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
+      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
       If Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value >= sstopss Then
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 12).Value
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value > 0 Then Call купить8
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
-         kolvo = Round((Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(19, 1).Value / Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 19).Value), 0)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value = kolvo
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(14, 1).Value = i1
-         If Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 18).Value > 0 Then Call купить8
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 12).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value > 0 Then Call kypit8
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value + 1
+         kolvo = Round((Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 17).Value / 15) * (Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(19, 1).Value / Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 19).Value), 0)
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value = kolvo
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(14, 1).Value = i1
+         If Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 18).Value > 0 Then Call kypit8
          sdd = 1
          kol_imp = 1
          nach_trend = zak_vchera
          max_trend = Workbooks("ssyr1.xlsm").Worksheets(s1).Cells(nrow, 4).Value
          sstop = Round(nach_trend + (max_trend - nach_trend) * kfl2 * Atn(kfl3 * kol_imp), 7)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 20).Value = kol_imp
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value = nach_trend
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 22).Value = max_trend
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value = sstop
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value = sdd
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 20).Value = kol_imp
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value = nach_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 22).Value = max_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value = sstop
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value = sdd
       End If
       gg = 0
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 0
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 0
    End If
-'==================================================           конец дня :posa=long raschet           =======================================================
+'==================================================           konec dnya :posa=long raschet           =======================================================
    
-   sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-   gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+   sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+   gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
    If sdd = 1 And (t1 = 18 And t2 = 49) And gg = 0 Then
-      sstop = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value
-      fin_cena = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 39).Value
+      sstop = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value
+      fin_cena = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 39).Value
       If fin_cena > sstop Then
-         max_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 7).Value
-         Min_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value
-         otk_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 9).Value
-         kol_imp = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 20).Value
+         max_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 7).Value
+         Min_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value
+         otk_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 9).Value
+         kol_imp = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 20).Value
          cell8 = Round((fin_cena - otk_today) / (max_today - Min_today), 7)
          If cell8 >= kfl1 Then kol_imp = kol_imp + 1
          If kol_imp = 0 Then kol_imp = 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 20).Value = kol_imp
-         nach_trend = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value
-         max_trend = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 22).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 20).Value = kol_imp
+         nach_trend = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value
+         max_trend = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 22).Value
          If fin_cena > max_trend Then max_trend = fin_cena
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 22).Value = max_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 22).Value = max_trend
          sstop = Round(nach_trend + (max_trend - nach_trend) * kfl2 * Atn(kfl3 * kol_imp), 7)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 16).Value = sstop
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 16).Value = sstop
       End If
       gg = 2
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 2
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 6).Value = fin_cena
-      Min_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value
-      min_time = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 42).Value
-      t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 43).Value
-      zzz = Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 1).Value = Date
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 2).Value = Min_today
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 3).Value = min_time
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 4).Value = t_proboi
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value = Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value + 1
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 2
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 6).Value = fin_cena
+      Min_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value
+      min_time = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 42).Value
+      t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 43).Value
+      zzz = Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 1).Value = Date
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 2).Value = Min_today
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 3).Value = min_time
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 4).Value = t_proboi
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value = Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value + 1
    End If
    
-'==================================================           конец дня :posa=short   raschet         =======================================================
+'==================================================           konec dnya :posa=short   raschet         =======================================================
 
-   sdd = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 5).Value
-   gg = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value
+   sdd = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 5).Value
+   gg = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value
    If sdd = -1 And (t1 = 18 And t2 = 49) And gg = 0 Then
-      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value
-      fin_cena = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 39).Value
+      sstopss = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value
+      fin_cena = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 39).Value
       If fin_cena < sstopss Then
-         max_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 7).Value
-         Min_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value
-         otk_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 9).Value
-         nach_trend = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 21).Value
+         max_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 7).Value
+         Min_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value
+         otk_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 9).Value
+         nach_trend = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 21).Value
          cell8 = Round((fin_cena - otk_today) / (max_today - Min_today), 7)
          If cell8 >= kfs1 Then kol_imps = kol_imps + 1
          If kol_imps = 0 Then kol_imps = 1
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 10).Value = kol_imps
-         min_trend = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 11).Value
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 10).Value = kol_imps
+         min_trend = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 11).Value
          If fin_cena < min_trend Then min_trend = fin_cena
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 11).Value = min_trend
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 11).Value = min_trend
          sstopss = Round(nach_trend - (nach_trend - min_trend) * kfs2 * Atn(kfs3 * kol_imps), 7)
-         Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 13).Value = sstopss
+         Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 13).Value = sstopss
       End If
       gg = 2
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 15).Value = 2
-      Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 6).Value = fin_cena
-      Min_today = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 8).Value
-      min_time = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 42).Value
-      t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Параметры8").Cells(i1 + 22, 43).Value
-      zzz = Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 1).Value = Date
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 2).Value = Min_today
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 3).Value = min_time
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(zzz, 4).Value = t_proboi
-      Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value = Workbooks("ssyr1.xlsm").Worksheets("минимумы").Cells(1, 5).Value + 1
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 15).Value = 2
+      Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 6).Value = fin_cena
+      Min_today = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 8).Value
+      min_time = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 42).Value
+      t_proboi = Workbooks("ssyr1.xlsm").Worksheets("Parametr8").Cells(i1 + 22, 43).Value
+      zzz = Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 1).Value = Date
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 2).Value = Min_today
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 3).Value = min_time
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(zzz, 4).Value = t_proboi
+      Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value = Workbooks("ssyr1.xlsm").Worksheets("minimymi").Cells(1, 5).Value + 1
    End If
    
 Next nrow
